@@ -1,7 +1,40 @@
 <html>
 <head>
-<title>Mi pagina</title>
-<body>
-	<h1> Bienvenidos a la pagina </h1>
+    <title>Saul</title>
+    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="js/master.js"></script>
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="css/master.css">
+</head>
+<body onload='resetScrollPos(this);'>
+  <header class='menu w3-container w3-col s2'>
+    <!-- Menú -->
+    <div class='menu-lista w3-bar-block'>
+      <div class='menu-item w3-bar-item w3-container'>
+        <img src='imgs/icons/inicio.png' class='menu-icon w3-center' onclick='scrollToSection("portada");'>
+      </div>
+      <div class='menu-item w3-bar-item w3-container'>
+        <img src='imgs/icons/user.png' class='menu-icon w3-center' onclick='scrollToSection("informacion");'>
+      </div>
+      <div class='menu-item w3-bar-item w3-container'>
+        <img src='imgs/icons/terminal.png' class='menu-icon w3-center'>
+      </div>
+      <div class='menu-item w3-bar-item w3-container'>
+        <img src='imgs/icons/pasat.png' class='menu-icon w3-center'>
+      </div>
+      <div class='menu-item w3-bar-item w3-container'>
+        <img src='imgs/icons/contacto.png' class='menu-icon w3-center'>
+      </div>
+    </div>
+  </header>
+  <section class='seccion perfil w3-display-container w3-col s10'>
+    <div class="perfil-datos w3-display-middle w3-card">
+      <img src="imgs/perfilGithub.jpg" class='w3-circle'>
+      <div class="perfil-nombre w3-center">sc99</div>
+    </div>
+  </section>
+  <section class='seccion informacion w3w3-display-container w3-col s10'>
+    asdasdasdas
+  </section>
 </body>
 </html>
